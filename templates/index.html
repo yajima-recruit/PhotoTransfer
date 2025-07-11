@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ファイルPC転送</title>
+  </head>
+  <body>
+    <h1>PCに送るファイルを選択してください</h1>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+      <label for="file">ファイルを選択:</label>
+      <input type="file" id="file" name="file">
+      <button type="submit">送信</button>
+    </form>
+  </body>
+</html>
